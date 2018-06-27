@@ -52,3 +52,6 @@ O comando **git diff --name-only**, mostra apenas o nome do arquivo que foi modi
 #### Comando git reset
 
 **git reset nome.do.arquivo** Este comando anula o envio das informações para o repositorio, cancelando assim o **git add**, que é feito antes de qualquer commit. Retirando assim o arquivo do **stage**.
+
+Com ele, podemos também desfazer commits. através de duas formas: 
+* **git reset head~1**: Assim o commit é desfeito, mas as alterações no arquivo ainda ainda estão presentes.
