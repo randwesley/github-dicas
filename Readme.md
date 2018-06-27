@@ -75,7 +75,7 @@ O **merge = Mesclar**, vai unir os commits que foram feitos em **branchs diferen
 
 Um branch é um local onde todas as informações de um arquivo estão salvas. o primeiro branch a ser criado é o branch master, mas outros branchs podem ser criados para trabalhar de forma isolada num arquivo e depois mesclar as alterações feitas, ao arquivo no branch principal.
 
-**git checkout -b nome.do.branch**: Com esse comando cria-se um novo branch
+<a href="#criaBranch">**git checkout -b nome.do.branch**</a> : Com esse comando cria-se um novo branch
 
 **git branch**: Mostra os branchs existentes
 
@@ -83,3 +83,11 @@ Um branch é um local onde todas as informações de um arquivo estão salvas. o
 
 **git branch -D nome.do.branch**: Com esse comando é possivel deletar um branch
 
+# Contribuindo com a comunidade.
+
+O melhor jeito de iniciar as contribuições para outros projetos, é fazendo o **fork** em um determinado projeto.
+E o clonando para o seu repositorio (git) local.
+
+* **git clone link.do.repositorio**: Assim é possivel clonar um projeto forkado que já vem com todos o historico de commits.
+
+após fazer isso, é necessario <strong id='#criaBranch'>criar uma nova branch de trabalho</strong>
