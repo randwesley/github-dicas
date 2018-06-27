@@ -35,3 +35,12 @@ Assim ao usar o comando, é possivel ver o **historico de commits**, assim como 
 * Com o comando **git log --author="nome do autor"**, é possivel fazer pesquisas usando o nome do autor das alterações. 
 * Com o comando **git shortlog**, é possivel verificar em ordem alfabetica quais são os autores que estão contribuindo para aquele repositorio, quais foram os seus commits e o numero de commits de um determinado autor.
 * com o comando **git log --graph** que mostra em forma grafica o que está acontecendo com os branchs (locais) e as versões dos codigos.
+
+### Comando git show
+
+Ao usar o git log e verificar o ID de uma determinada versão, é possivel usar o comando **git show numero.do.id** para acompanhar qual foi a modificação que o arquivo obteve.
+
+## Comando git diff
+
+Este comando mostra qual foi a alteração que codigo obteve, antes mesmo de ser commitado.
+O comando **git diff --name-only**, mostra apenas o nome do arquivo que foi modificado. Assim, é mais facil perceber quais arquivos foram modificados.
