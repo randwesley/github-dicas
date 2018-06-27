@@ -64,3 +64,7 @@ Existem três formas resetar um commit, cada uma com caractetisticas bem marcant
 * **soft** git reset --soft id.do.commit: retorna o arquivo pra um momento anterior ao commit. ao usa-lo, o commit é apagado, mas as alterações no arquivo permanecem.
 * **mixed** git reset --mixed: retorna o arquivo pra o momento do modified
 * **hard** git reset --hard: ignora o commit e tudo o que foi feito.
+
+## Usando o Merge
+
+O **merge = Mesclar**, vai unir os commits que foram feitos em **branchs diferentes**. mas ao fazer isso, ele vai criar um commit extra que serve como elo de ligação entre branchs.
