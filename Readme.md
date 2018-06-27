@@ -44,3 +44,7 @@ Ao usar o git log e verificar o ID de uma determinada versão, é possivel usar 
 
 Este comando mostra qual foi a alteração que codigo obteve, antes mesmo de ser commitado.
 O comando **git diff --name-only**, mostra apenas o nome do arquivo que foi modificado. Assim, é mais facil perceber quais arquivos foram modificados.
+
+### Comando git checkout
+
+**git checkout nome.do.arquivo** Com este comando, o arquivo que sofreu alteração, retorna para o estado em que estava no ultimo commit, **esse comando é interessante para consertar erros antes de realizar o commit do arquivo**
