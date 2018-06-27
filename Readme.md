@@ -65,12 +65,13 @@ Existem três formas resetar um commit, cada uma com caractetisticas bem marcant
 * **mixed** git reset --mixed: retorna o arquivo pra o momento do modified
 * **hard** git reset --hard: ignora o commit e tudo o que foi feito.
 
-<<<<<<< HEAD
-## Usando o Merge
+
+# Usando o Merge
 
 O **merge = Mesclar**, vai unir os commits que foram feitos em **branchs diferentes**. mas ao fazer isso, ele vai criar um commit extra que serve como elo de ligação entre branchs.
-=======
-# Branchs
+**git merge nome.do.branch**: Os commits realizados neste branch secundario, serão unidos aos commits realizados no branch master.
+
+## Branchs
 
 Um branch é um local onde todas as informações de um arquivo estão salvas. o primeiro branch a ser criado é o branch master, mas outros branchs podem ser criados para trabalhar de forma isolada num arquivo e depois mesclar as alterações feitas, ao arquivo no branch principal.
 
@@ -80,5 +81,5 @@ Um branch é um local onde todas as informações de um arquivo estão salvas. o
 
 **git checkout nome.do.branch**: Assim é possivel navegar  entre os branchs
 
-**git branch -D nome.do.branch**: COm esse comando é possivel deletar um branch
->>>>>>> testing
+**git branch -D nome.do.branch**: Com esse comando é possivel deletar um branch
+
