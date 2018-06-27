@@ -54,6 +54,13 @@ O comando **git diff --name-only**, mostra apenas o nome do arquivo que foi modi
 **git reset nome.do.arquivo** Este comando anula o envio das informações para o repositorio, cancelando assim o **git add**, que é feito antes de qualquer commit. Retirando assim o arquivo do **stage**.
 
 Com ele, podemos também desfazer commits. através de duas formas: 
-* **git reset HEAD**: Assim o commit é desfeito, mas as alterações no arquivo ainda ainda estão presentes. 
+* **git reset HEAD~1**: Assim o commit é desfeito, mas as alterações no arquivo ainda ainda estão presentes. 
 
-* **git reset --hard HEAD**: Assim tanto o commit, quanto a alteração no arquivo é desfeita.
+* **git reset --hard HEAD~1**: Assim tanto o commit, quanto a alteração no arquivo é desfeita.
+
+#### Usando o git reset através do id de um commit
+
+Existem três formas resetar um commit, cada uma com caractetisticas bem marcantes. sendo: 
+* **soft** git reset --soft id.do.commit: retorna o arquivo pra um momento anterior ao commit. ao usa-lo, o commit é apagado, mas as alterações no arquivo permanecem.
+* **mixed** git reset --mixed: retorna o arquivo pra o momento do modified
+* **hard** git reset --hard: ignora o commit e tudo o que foi feito.
