@@ -69,7 +69,7 @@ Existem três formas resetar um commit, cada uma com caractetisticas bem marcant
 # Usando o Merge
 
 O **merge = Mesclar**, vai unir os commits que foram feitos em **branchs diferentes**. mas ao fazer isso, ele vai criar um commit extra que serve como elo de ligação entre branchs.
-**git merge nome.do.branch**: Os commits realizados neste branch secundario, serão unidos aos commits realizados no branch master.
+* **git merge nome.do.branch**: Os commits realizados neste branch secundario, serão unidos aos commits realizados no branch master.
 
 ## Branchs
 
