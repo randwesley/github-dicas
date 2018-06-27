@@ -26,3 +26,12 @@ Ao realizar o commit, o sistema git informa as informações da alteração do a
 **master** = local onde a versão do arquivo foi salva
 **root-commit** = o tipo de alteração que o arquivo sofreu, nesse caso, foi um commit.
 **c6ceca8** = é o ID da versão atual do arquivo que foi salvo, assim, atraves dela, pode-se fazer com que o arquivo retorne a essa versão, com esse ID de registro.
+
+## Comando git log
+
+Atraves deste comando, é possivel verificar todo o historico de versões dos arquivos salvos no repositorio. Este historico é visto pelo id (c6ceca8) que o sistema cria, apos cada **commit**. 
+Assim ao usar o comando, é possivel ver o **historico de commits**, assim como o autor e a data em que a versão do arquivo foi salva.
+
+* Com o comando **git log --author="nome do autor"**, é possivel fazer pesquisas usando o nome do autor das alterações. 
+* Com o comando **git shortlog**, é possivel verificar em ordem alfabetica quais são os autores que estão contribuindo para aquele repositorio, quais foram os seus commits e o numero de commits de um determinado autor.
+* com o comando **git log --graph** que mostra em forma grafica o que está acontecendo com os branchs (locais) e as versões dos codigos.
