@@ -90,4 +90,10 @@ E o clonando para o seu repositorio (git) local.
 
 * **git clone link.do.repositorio**: Assim é possivel clonar um projeto forkado que já vem com todos o historico de commits.
 
-após fazer isso, é necessario <a href="#criaBranch">criar uma nova branch de trabalho</a>
+após fazer isso, é necessario <a href="#criaBranch">criar uma nova branch de trabalho</a>, pois assim se é garantida a integridade dos dados. 
+
+Após fazer as correções no projeto, é preciso fazer o commit das alterações e envia-las para o fork.
+**git add -all**
+**git commit -m "mensagem"**
+Feito o commit, é a hora de subir o repositorio forkado.
+**git push origin nome.da.branch**
