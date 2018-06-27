@@ -64,3 +64,15 @@ Existem três formas resetar um commit, cada uma com caractetisticas bem marcant
 * **soft** git reset --soft id.do.commit: retorna o arquivo pra um momento anterior ao commit. ao usa-lo, o commit é apagado, mas as alterações no arquivo permanecem.
 * **mixed** git reset --mixed: retorna o arquivo pra o momento do modified
 * **hard** git reset --hard: ignora o commit e tudo o que foi feito.
+
+# Branchs
+
+Um branch é um local onde todas as informações de um arquivo estão salvas. o primeiro branch a ser criado é o branch master, mas outros branchs podem ser criados para trabalhar de forma isolada num arquivo e depois mesclar as alterações feitas, ao arquivo no branch principal.
+
+**git checkout -b nome.do.branch**: Com esse comando cria-se um novo branch
+
+**git branch**: Mostra os branchs existentes
+
+**git checkout nome.do.branch**: Assim é possivel navegar  entre os branchs
+
+**git branch -D nome.do.branch**: COm esse comando é possivel deletar um branch
