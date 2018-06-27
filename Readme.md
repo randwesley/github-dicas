@@ -12,9 +12,9 @@ O comando serve para verificar qual o status dos arquivos que estão inseridos n
 Ao criar um arquivo dentro do repositorio, num primeiro momento ele é considerado **Untracked**, ou seja, ele foi criado na pasta mas não foi adicionado ao repositorio.
 
 Para adicionar um arquivo, basta digitar o comando **git add nome.do.arquivo**, assim ele passa a ser considerado um arquivo **unmodified**, que foi adicionado e agora pode ser editado. 
-Ao ser editado, ele passa a ser considerado um arquivo **modified**, e após isso pode ser **commitado** e assim é salvo um registro (log) da edição, que é chamado de **commit**.
+Ao ser editado, ele passa a ser considerado um arquivo **modified**, e assim, passa para o proximo passo, que é o **staged**, com isso pode ser **commitado** e assim é salvo um registro (log) da edição, que é chamado de **commit**.
 
-epois do primeiro **commit**, o arquivo volta a ser **unmodified** e assim o ciclo se repete.
+Depois do primeiro **commit**, o arquivo volta a ser **unmodified** e assim o ciclo se repete.
 
 ## Comando git commit
 
@@ -48,3 +48,7 @@ O comando **git diff --name-only**, mostra apenas o nome do arquivo que foi modi
 ### Comando git checkout
 
 **git checkout nome.do.arquivo** Com este comando, o arquivo que sofreu alteração, retorna para o estado em que estava no ultimo commit, **esse comando é interessante para consertar erros antes de realizar o commit do arquivo**
+
+#### Comando git reset
+
+**git reset nome.do.arquivo** Este comando anula o envio das informações para o repositorio, cancelando assim o **git add**, que é feito antes de qualquer commit. Retirando assim o arquivo do **stage**.
